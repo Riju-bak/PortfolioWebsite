@@ -1,8 +1,8 @@
-.rk__about{
+.rk__skills{
     margin-bottom: 15rem;
 }
 
-.head-text {
+.skills__head-text {
     font-family: var(--font-family);
     font-size: 2.75rem;
     font-weight: 800;
@@ -14,26 +14,26 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .head-text {
+    .skills__head-text {
         font-size: 4rem;
         margin-top: 20rem;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .head-text {
+    .skills__head-text {
         font-size: 2rem;
         margin-top: 5rem;
     }
 }
 
-.app__about {
+.skills__about {
     flex: 1;
     width: 100%;
     flex-direction: column;
 }
 
-.app__profiles {
+.skills__profiles {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -41,34 +41,36 @@
     margin-top: 2rem;
 }
 
-.app__profile-item {
+.skills__profile-item {
     width: 190px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin: 2rem;
+
+
 }
 
-.app__profile-item img {
+.skills__profile-item img {
     width: 100%;
-    height: 190px;
+    height: 90px;
     border-radius: 15px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 @media screen and (min-width: 2000px) {
-    .app__profile-item {
+    .skills__profile-item {
         width: 370px;
         margin: 2rem 4rem;
     }
 
-    .app__profile-item img {
+    .skills__profile-item img {
         height: 320px;
     }
 }
 
-.bold-text {
+.skills__bold-text {
     font-family: var(--font-family);
     font-size: 30px;
     font-weight: 600;
@@ -77,18 +79,18 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .bold-text {
+    .skills__bold-text {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .bold-text {
+    .skills__bold-text {
         font-size: 0.9rem;
     }
 }
 
-.p-text {
+.skills__p-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 17px;
@@ -100,7 +102,7 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .p-text {
+    .skills__p-text {
         font-size: 1.75rem;
     }
 }

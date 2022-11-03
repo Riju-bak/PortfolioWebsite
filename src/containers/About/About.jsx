@@ -6,7 +6,7 @@ import automation from '../../assets/automation.png'
 import {motion} from 'framer-motion';
 
 
-function About(props) {
+function About() {
     const abouts = [{
             title: "Frontend development",
             description: "I've built frontend for webapps using React. Infact, this website is built using react as well.",
@@ -24,7 +24,7 @@ function About(props) {
         }
         ]
     return (
-        <div id="about">
+        <div className={"rk__about section__padding"} id="about">
             <h2 className="head-text">I Know that <span className={"gradient__text"}>Good Apps</span> <br/>means <span
                 className={"gradient__text"}>Good Business</span></h2>
             <div className="app__profiles">
