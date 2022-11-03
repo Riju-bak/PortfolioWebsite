@@ -1,9 +1,14 @@
 .rk__navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 2rem 6rem;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+    /*z-index: 1;*/
 }
 
 .rk__navbar-links {
@@ -39,6 +44,15 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+
+.rk__navbar-links_container p a, .rk__navbar-menu_container p a{
+    transition: all 0.3s ease-in-out;
+}
+
+.rk__navbar-links_container p a:hover, .rk__navbar-menu_container p a:hover{
+    color: var(--color-text);
+}
+
 
 .rk__navbar-menu_container button {
     padding: 0.5rem 1rem;

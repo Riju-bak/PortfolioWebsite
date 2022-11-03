@@ -1,6 +1,9 @@
 .rk__header {
     display: flex;
     flex-direction: row;
+    margin-bottom: 15rem;
+    height: 100%;
+    width: 100%;
 }
 
 .rk__header-content {
@@ -49,7 +52,7 @@
     }
 
     .rk__header-content {
-        margin: 0 0 3rem;
+        margin: 5rem 0 3rem;
     }
 }
 
