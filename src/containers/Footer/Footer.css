@@ -1,0 +1,138 @@
+.rk__head-text {
+    font-family: var(--font-family);
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-text);
+    text-transform: capitalize;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 2000px) {
+    .rk__head-text {
+        font-size: 4rem;
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .head-text {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+}
+
+.rk__footer {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .rk__footer{
+        flex-direction: column;
+    }
+}
+
+.rk__footer-cards{
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4em 2rem 2rem;
+}
+
+.rk__footer-cards .rk__footer-card{
+    min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--color-blog);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.rk__footer-card img{
+    width: 40px;
+    height: 40px;
+    margin: 0 0.7rem;
+}
+
+.rk__footer-card p{
+    font-weight: 500;
+}
+
+.rk__footer-card a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.rk__footer-card p:hover a:hover{
+    box-shadow: 0 0 25px #fef4f5;
+}
+
+/*@media screen and (max-width: 450px) {*/
+/*    !*.rk__footer-card{*!*/
+/*    !*    width: 100%;*!*/
+/*    !*}*!*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .rk__footer-cards{*/
+/*        !*width: 75%;*!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 1024px) {*/
+/*    .rk__footer-cards{*/
+/*        width: 95%;*/
+/*    }*/
+/*}*/
+
+.footer__p-text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+
+}
+
+@media screen and (min-width: 2000px) {
+    .footer__p-text {
+        font-size: 1.75rem;
+    }
+}
+
+.footer__copyright {
+    width: 100%;
+    padding: 2rem 2rem 2rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer__copyright p {
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 500px) {
+    .footer__copyright {
+        padding: 2rem;
+    }
+}
+
+
