@@ -9,17 +9,17 @@ import {motion} from 'framer-motion';
 function About() {
     const abouts = [{
             title: "Frontend development",
-            description: "I've built frontend for webapps using React. Infact, this website is built using react as well.",
+            description: "I've built frontend for webapps using React. Infact, this website is built using react.",
             image: fe
         },
         {
             title: "Backend development",
-            description: "I've built web backends using Django in the past. These days I use ASP .NET Core Web API",
+            description: "I've built web backends using Django in the past. These days I use ASP .NET Core Web API.",
             image: be
         },
         {
             title: "Automation scripting",
-            description: "I prefer to automate mundane tasks by writing either python or bash scripts",
+            description: "I prefer to automate mundane tasks by writing either python or bash scripts.",
             image: automation
         }
         ]

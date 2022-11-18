@@ -6,8 +6,23 @@ import {workrobo} from "../../assets";
 
 function Work() {
     const experiences = [
-        {year: "2022", works: [{name: "Software Developer(Intern)", company: "Taktys", desc: "Working on both the front-end and backend of their datamanagement tool"}]},
-        {year: "2020", works: [{name: "Software Engineer(Intern)", company: "Rapyuta Robotics", desc: "Built the backend of an internal web app from scratch."}]}
+        {
+            year: "2022",
+            works: [{
+                name: "Software Developer(Intern)",
+                company: "Taktys",
+                desc: "Working on both the front-end and backend of their data management tool"
+            }]
+        },
+
+        {
+            year: "2020",
+            works: [{
+                name: "Software Engineer(Intern)",
+                company: "Rapyuta Robotics",
+                desc: "Built the backend of an internal web app from scratch. Also wrote software that helps warehouse robots communicate with each other"
+            }]
+        }
     ];
     return (
         <div id="work" className={"rk__work section__padding"}>
@@ -42,7 +57,7 @@ function Work() {
                                         <ReactTooltip
                                             id={work.name}
                                             effect="solid"
-                                            arrowColor="#fff"
+                                            arrowColor="#042c54"
                                             className="work__tooltip"
                                         >
                                         {work.desc}
