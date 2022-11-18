@@ -21,9 +21,9 @@ function Footer() {
                         transition={{duration: 0.5, type: 'tween'}}
                         key={card.content}
                     >
-                        <div className={"rk__footer-card"}>
+                        <div className={"rk__footer-card"} onClick={() => {window.open(card.link, '_blank', 'noopener,noreferrer');}}>
                             <img src={card.image} alt={card.content} />
-                            <a href={card.link} target="_blank" className="footer__p-text">{card.content}</a>
+                            <div className="footer__p-text">{card.content}</div>
                         </div>
                     </motion.div>
                 )}
