@@ -29,7 +29,7 @@ function Footer() {
                 )}
             </div>
             <div className="footer__copyright">
-                <p className="footer__p-text">@2022 Rijubak</p>
+                <p className="footer__p-text">@2023 Rijubak</p>
                 <p className="footer__p-text">All rights reserved</p>
             </div>
         </div>
