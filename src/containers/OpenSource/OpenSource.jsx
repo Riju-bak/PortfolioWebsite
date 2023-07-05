@@ -22,25 +22,6 @@ function OpenSource() {
             status: "In Progress"
         },
     ];
-    const experiences = [
-        {
-            year: "2022",
-            works: [{
-                name: "Nodify",
-                company: "A collection of highly performant controls for node based editors designed for MVVM.",
-                desc: "Generate Settings Panel from view-model "
-            }]
-        },
-
-        {
-            year: "2020",
-            works: [{
-                name: "Software Engineer(Intern)",
-                company: "Rapyuta Robotics",
-                desc: "Built the backend of an internal web app from scratch. Also wrote software that helps warehouse robots communicate with each other"
-            }]
-        }
-    ];
     return (
         <div id="opensource" className={"rk__opensource section__padding"}>
             <h2 className="opensource__head-text">Open Source Contributions</h2>
@@ -68,7 +49,7 @@ function OpenSource() {
                                 data-for={opensource.name}
                                 key={opensource.name}
                             >
-                                <h4 className="opensource__bold-text gradient__text">{contribution.name + (contribution.status == "Complete" ? "" : ` (${contribution.status})`)}</h4>
+                                <h4 className="opensource__bold-text gradient__text">{contribution.name + (contribution.status === "Complete" ? "" : ` (${contribution.status})`)}</h4>
                                 <p className={"opensource__p-text"}>{contribution.desc}</p>
                             </motion.div>
                         </div>
