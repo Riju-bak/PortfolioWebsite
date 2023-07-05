@@ -11,6 +11,7 @@ function Work() {
             works: [{
                 name: "Software Developer(Intern)",
                 company: "Taktys",
+                url: "",
                 desc: "Working on both the front-end and backend of their data management tool"
             }]
         },
@@ -20,6 +21,7 @@ function Work() {
             works: [{
                 name: "Software Engineer(Intern)",
                 company: "Rapyuta Robotics",
+                url: "https://www.rapyuta-robotics.com/",
                 desc: "Built the backend of an internal web app from scratch. Also wrote software that helps warehouse robots communicate with each other"
             }]
         }
@@ -52,7 +54,7 @@ function Work() {
                                             key={work.name}
                                         >
                                             <h4 className="work__bold-text gradient__text">{work.name}</h4>
-                                            <p className={"work__p-text"}>{work.company}</p>
+                                            <p className={"work__p-text"} onClick={() => {window.open(work.url, '_blank', 'noopener, noreferrer');}}>{work.company}</p>
                                         </motion.div>
                                         <ReactTooltip
                                             id={work.name}

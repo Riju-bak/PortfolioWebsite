@@ -7,3 +7,4 @@ export {default as workrobo} from './workrobo.webp'
 export {default as email} from './email.png';
 export {default as phone} from './phone.png';
 export {default as github} from './github.png';
+export {default as opensource} from './open-source.png';
