@@ -17,9 +17,9 @@ function OpenSource() {
             name: "Crowdin .NET Client",
             desc: "The Crowdin .NET client is a lightweight interface to the Crowdin API",
             url: "https://github.com/crowdin/crowdin-api-client-dotnet",
-            merged_pr_url: "https://github.com/crowdin/crowdin-api-client-dotnet/pull/165",
+            merged_pr_url: "https://github.com/crowdin/crowdin-api-client-dotnet/pulls?q=is%3Apr+author%3ARiju-bak+is%3Aclosed",
             year: 2023,
-            status: "In Progress"
+            status: "Complete"
         },
     ];
     return (
