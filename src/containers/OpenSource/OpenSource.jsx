@@ -21,6 +21,14 @@ function OpenSource() {
             year: 2023,
             status: "Complete"
         },
+        {
+            name: "ViaCEP",
+            desc: "A .NET client wrapper for both .NET Core & .NET Framework projects of Via CEP API",
+            url: "https://github.com/guibranco/ViaCEP",
+            merged_pr_url: "https://github.com/guibranco/ViaCEP/pull/72",
+            year: 2023,
+            status: "Complete"
+        },
     ];
     return (
         <div id="opensource" className={"rk__opensource section__padding"}>

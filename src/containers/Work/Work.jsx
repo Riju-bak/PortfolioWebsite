@@ -54,7 +54,10 @@ function Work() {
                                             key={work.name}
                                         >
                                             <h4 className="work__bold-text gradient__text">{work.name}</h4>
-                                            <p className={"work__p-text"} onClick={() => {window.open(work.url, '_blank', 'noopener, noreferrer');}}>{work.company}</p>
+                                            <motion.div
+                                                whileHover={{scale: 1.1}}>
+                                                <p className={"work__p-text"} onClick={() => {window.open(work.url, '_blank', 'noopener, noreferrer');}}>{work.company}</p>
+                                            </motion.div>
                                         </motion.div>
                                         <ReactTooltip
                                             id={work.name}

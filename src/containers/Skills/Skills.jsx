@@ -1,11 +1,11 @@
 import React from 'react';
 import './Skills.css';
 import {motion} from "framer-motion";
-import {react, dotnetcore, python, git, sql} from "../../assets";
+import {react, dotnetcore, python, git, sql, cs} from "../../assets";
 import '../../App.css';
 
 function Skills() {
-    const skills = [{name: "Git", icon: git}, {name: "React", icon: react}, {name: "Dot Net Core", icon: dotnetcore}, {name: "Python", icon:python}, {name: "SQL", icon: sql} ];
+    const skills = [{name: "Git", icon: git}, {name: "React", icon: react}, {name: "C#", icon: cs}, {name: "Dot Net Core", icon: dotnetcore}, {name: "Python", icon:python}, {name: "SQL", icon: sql} ];
     return (
         <div className={"rk__skills section__padding"} id="skills">
             <h2 className="skills__head-text">Skills</h2>
