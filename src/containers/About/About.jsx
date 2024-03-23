@@ -2,12 +2,25 @@ import React from 'react';
 import './about.css';
 import fe from '../../assets/fe.png'
 import be from '../../assets/be.png'
+import embeddedLogo from '../../assets/embeddedsyslogo.webp'
 import automation from '../../assets/automation.png'
+import robotics from '../../assets/robotics.webp'
 import {motion} from 'framer-motion';
 
 
 function About() {
-    const abouts = [{
+    const abouts = [
+        {
+            title: "Embedded Systems Software",
+            description: "Arduino, C++, RTOS(Real Time Operating Systems)",
+            image: embeddedLogo
+        },
+        {
+            title: "Robotics",
+            description: "Line following Robot, Maze solving robot, Robot Odometry, PID Control",
+            image: robotics
+        },
+        {
             title: "Frontend development",
             description: "I've built frontend for webapps using React. Infact, this website is built using react.",
             image: fe
@@ -22,7 +35,7 @@ function About() {
             description: "I prefer to automate mundane tasks by writing either python or bash scripts.",
             image: automation
         }
-        ]
+    ]
     return (
         <div className={"rk__about section__padding"} id="about">
             <h2 className="head-text">I Know that <span className={"gradient__text"}>Good Apps</span> <br/>means <span

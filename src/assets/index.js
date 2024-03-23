@@ -9,3 +9,6 @@ export {default as phone} from './phone.png';
 export {default as github} from './github.png';
 export {default as opensource} from './open-source.png';
 export {default as cs} from './cs.png';
+export {default as robotics} from './robotics.webp';
+export {default as embeddedskill} from './embeddedskill.webp';
+export {default as cpp} from './cpp.webp';
