@@ -15,6 +15,7 @@ function Navbar() {
                     <p><a href="#home">Home</a></p>
                     <p><a href="#about">About</a></p>
                     <p><a href="#work">Work</a></p>
+                    <p><a href="#projects">Projects</a></p>
                     <p><a href="#opensource">Open source</a></p>
                     <p><a href="#skills">Skills</a></p>
                     <p><a href="#contact">Contact</a></p>
@@ -30,6 +31,7 @@ function Navbar() {
                             <p><a href="#home" onClick={() => {setToggleMenu(false)}}>Home</a></p>
                             <p><a href="#about" onClick={() => {setToggleMenu(false)}}>About</a></p>
                             <p><a href="#work" onClick={() => {setToggleMenu(false)}}>Work</a></p>
+                            <p><a href="#projects" onClick={() => {setToggleMenu(false)}}>Projects</a></p>
                             <p><a href="#opensource" onClick={() => {setToggleMenu(false)}}>Open Source</a></p>
                             <p><a href="#skills" onClick={() => {setToggleMenu(false)}}>Skills</a></p>
                             <p><a href="#contact" onClick={() => {setToggleMenu(false)}}>Contact</a></p>

@@ -12,3 +12,4 @@ export {default as cs} from './cs.png';
 export {default as robotics} from './robotics.webp';
 export {default as embeddedskill} from './embeddedskill.webp';
 export {default as cpp} from './cpp.webp';
+export {default as robotproject} from './robotproject.png';
