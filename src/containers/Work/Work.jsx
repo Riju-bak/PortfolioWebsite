@@ -7,12 +7,12 @@ import {workrobo} from "../../assets";
 function Work() {
     const experiences = [
         {
-            year: "2022",
+            year: "2024",
             works: [{
                 name: "Software Developer(Intern)",
-                company: "Taktys",
-                url: "",
-                desc: "Working on both the front-end and backend of their data management tool"
+                company: "E-Stone Tech",
+                url: "https://e-stonetech.com/",
+                desc: "Optimizing REST APIs for an HRM application written in .NET Framework 4.5.2"
             }]
         },
 

@@ -6,13 +6,13 @@ import '../../App.css';
 
 function Skills() {
     const skills = [
+        {name: "C#", icon: cs},
+        {name: "Dot Net Core", icon: dotnetcore},
+        {name: "SQL", icon: sql},
         {name: "Embedded Software", icon: embeddedskill},
         {name: "Robotics", icon: robotics},
         {name: "C++", icon: cpp},
-        {name: "C#", icon: cs},
-        {name: "Dot Net Core", icon: dotnetcore},
         {name: "Python", icon: python},
-        {name: "SQL", icon: sql},
         {name: "React", icon: react},
         {name: "Git", icon: git}
     ];

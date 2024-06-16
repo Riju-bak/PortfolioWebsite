@@ -13,7 +13,7 @@ function Projects() {
         {
             name: "Maze Solving Robot",
             desc: "Arduino controlled differential drive robot which navigates its way through a maze.",
-            url: ""
+            url: "https://drive.google.com/file/d/1Tt86yUvKT-FcsGsMTCPrw4bDoa-EWfkg/view?usp=sharing"
         },
         {
             name: "Solar Tracker",
