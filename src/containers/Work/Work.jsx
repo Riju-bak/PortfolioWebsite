@@ -7,6 +7,15 @@ import {workrobo} from "../../assets";
 function Work() {
     const experiences = [
         {
+            year: "2025",
+            works: [{
+                name: "Software Test Developer Intern",
+                company: "Ontario Lottery and Gaming Corporation (OLG)",
+                url: "https://www.olg.ca/en/home.html",
+                desc: "Developing and maintaining automated tests for the OLG lottery and casino website using Java, Selenium WebDriver and Karate Framework to enhance software quality and efficiency"
+            }]
+        },
+        {
             year: "2024",
             works: [{
                 name: "Software Developer(Intern)",
@@ -15,17 +24,17 @@ function Work() {
                 desc: "Optimizing REST APIs for an HRM application written in .NET Framework 4.5.2"
             }]
         },
-
         {
             year: "2020",
             works: [{
-                name: "Software Engineer(Intern)",
+                name: "Software Development Engineer",
                 company: "Rapyuta Robotics",
                 url: "https://www.rapyuta-robotics.com/",
                 desc: "Built the backend of an internal web app from scratch. Also wrote software that helps warehouse robots communicate with each other"
             }]
         }
     ];
+
     return (
         <div id="work" className={"rk__work section__padding"}>
             <h2 className="work__head-text">Work Experience</h2>

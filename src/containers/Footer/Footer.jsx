@@ -6,7 +6,6 @@ import {motion} from "framer-motion";
 function Footer() {
     const cards = [
         {image: email, content: "rijubak@gmail.com", link: "mailto:rijubak@gmail.com"},
-        {image: phone, content: "+1 (548) 994-5509", link: "tel:+1 (548) 994-5509"},
         {image: github, content: "Github", link: "https://github.com/Riju-bak"}
     ]
     return (
