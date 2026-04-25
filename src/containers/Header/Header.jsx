@@ -11,7 +11,7 @@ function Header(props) {
                 <p>The robot on the right is perhaps something I'll build in the future :)</p>
             </div>
             <div className="rk__header-image">
-                <img src={robot} />
+                <img alt="scary robot" src={robot} />
             </div>
         </div>
     );

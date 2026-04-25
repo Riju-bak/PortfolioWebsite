@@ -12,6 +12,8 @@ function Work() {
                 {
                     name: "Embedded Systems Engineer",
                     company: "Nex Robotics",
+                    url: "",
+                    desc: ""
                 }
             ]
         },

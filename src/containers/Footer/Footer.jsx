@@ -1,5 +1,5 @@
 import React from 'react';
-import {email, phone, github} from "../../assets";
+import {email, github} from "../../assets";
 import './Footer.css';
 import {motion} from "framer-motion";
 
