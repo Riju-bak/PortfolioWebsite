@@ -7,6 +7,15 @@ import {workrobo} from "../../assets";
 function Work() {
     const experiences = [
         {
+            year: "2026",
+            works: [
+                {
+                    name: "Embedded Systems Engineer",
+                    company: "Nex Robotics",
+                }
+            ]
+        },
+        {
             year: "2025",
             works: [{
                 name: "Software Test Developer Intern",

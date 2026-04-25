@@ -7,8 +7,8 @@ function Header(props) {
         <div className="rk__header section__padding" id="home">
             <div className="rk__header-content">
                 <h1 className="gradient__text">Hello, I am Rijubak</h1>
-                <p>A 4th year Computer Science student, looking for full-time software engineering roles including internships.</p>
-                <p>Please hire me, or this robot will take over our world.</p>
+                <p>I'm an Embedded Systems Engineer building cool robots for a Robotics Company</p>
+                <p>The robot on the right is perhaps something I'll build in the future :)</p>
             </div>
             <div className="rk__header-image">
                 <img src={robot} />
